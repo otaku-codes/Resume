@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap Files  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Fontawesome CDN  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Font Files  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- All CSS Files  -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/main-menu.css" />
+
+  <script src="js/script.js"></script>
+
+  <title>Himanshu Portfolio</title>
+</head>
+
+<body>
+  <!-- Left Menu -->
+  <div class="d-flex flex-column mb-3 menu">
+    <!-- Profile Picture Left Side -->
+    <div class="profile-pic img-fluid">
+      <img src="images/face-1-min.jpg" alt="" class="rounded-circle" />
+    </div>
+    <div class="p-2 h4 text-white text-center">Himanshu Singh</div>
+
+    <!-- Main Menu -->
+    <div class="main-menu ms-2">
+      <div class="p-2 py-3">
+        <a href="#container-menu"><i class="fas fa-home pe-2"></i>Home</a>
+      </div>
+      <div class="p-2 py-3">
+        <a href="#about-menu"><i class="fas fa-user pe-2"></i>About</a>
+      </div>
+      <div class="p-2 py-3">
+        <a href="#resume-menu"><i class="fas fa-file pe-2"></i>Resume</a>
+      </div>
+      <div class="p-2 py-3">
+        <a href="#testimonials-menu"><i class="fas fa-cart-plus pe-2"></i>Testimonials</a>
+      </div>
+      <div class="p-2 py-3 ">
+        <a href="#contact-menu" ><i class="far fa-address-book pe-2"></i>Contact</a>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center align-content-center m-4">
+    <button onclick="switchMode()" class="position-relative switch-mode">Switch Mode</button> 
+  </div>
+    <!-- Footer Main Menu -->
+    <div class="d-flex justify-content-center py-3 footer">
+      <a href=""><i class="fab fa-linkedin-in px-2"></i></a>
+      <a href=""><i class="fas fa-basketball-ball px-2"></i></a>
+      <a href=""><i class="fab fa-behance px-2"></i></a>
+      <a href=""><i class="fab fa-github px-2"></i></a>
+      <a href=""><i class="fab fa-twitter px-2"></i></a>
+    </div>
+  </div>
+
+  <!-- Main Website Content  -->
+  <div class="container-fluid p-0" id="container-menu">
+
+     <div class="main-row d-flex flex-column">
+
+      <!-- 1st Block  -->
+      <div class="home-banner">
+
+        <div class="main-home d-flex align-items-center">
+          <div class="main-home-content ms-5">
+            <h1 class="fw-bolder main-home-title">
+              <span> Welcome To My</span> <br />
+              <span> Portfolio! </span>
+            </h1>
+            <p style="font-family: monospace; font-size: 18px;">
+              &lt;<span class="text-warning">Code</span>&gt;
+              I build <span id="typed" style="white-space:pre;" class="typed">
+              </span>
+              &lt;/<span class="text-warning">Code</span>&gt;
+            </p>
+
+            <button class="btn btn-warning px-4 py-2 rounded-0">EXPLORE NOW</button>
+          </div>
+          <img src="images/face-2-min.png" alt="" class="face-2-img" />
+
+        </div>
+
+      </div>
+
+      <!-- 2nd Block  -->
+      <div class="home-info row text-center">
+        <div class="col-3">
+          <p><span class="text-warning fw-bolder">01+</span> Year Experience</p>
+        </div>
+        <div class="col-3">
+          <p><span class="text-warning fw-bolder">13+</span> Completed Project</p>
+        </div>
+        <div class="col-3">
+          <p><span class="text-warning fw-bolder">14+</span> Happy Customers</p>
+        </div>
+        <div class="col-3">
+          <p><span class="text-warning fw-bolder">20+</span> Honors and Awards</p>
+        </div>
+      </div>
+
+      <!-- 3rd Block  -->
+      <div class="about right-margin" id="about-menu">
+        <h2 class="position-relative mb-3 heading">About</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
+        <div class="row">
+          <div class="col-4" data-aos="zoom-in" data-aos-offset="0">
+            <img src="images/profile-img.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-8" data-aos="zoom-in" data-aos-offset="0">
+            <h2>UI/UX Designer & Web Developer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+            <div class="row">
+              <div class="col-6 py-3">
+                <i class="fas fa-chevron-right pe-1 text-primary"></i><b class="text-warning">Birthday:</b> 1 May 1995
+              </div>
+              <div class="col-6 py-3">
+                <i class="fas fa-chevron-right pe-1 text-primary"></i><b class="text-warning">Age:</b> 30
+              </div>
+              <div class="col-6 py-3">
+                <i class="fas fa-chevron-right pe-1 text-primary"></i><b class="text-warning">Website:</b>
+                www.example.com
+              </div>
+              <div class="col-6 py-3">
+                <i class="fas fa-chevron-right pe-1 text-primary"></i><b class="text-warning">Degree:</b> Master
+              </div>
+              <div class="col-6 py-3">
+                <i class="fas fa-chevron-right pe-1 text-primary"></i><b class="text-warning">Phone:</b> +123 456 7890
+              </div>
+              <div class="col-6 py-3">
+                <i class="fas fa-chevron-right pe-1 text-primary"></i><b class="text-warning">PhEmailone:</b>
+                email@example.com
+              </div>
+              <div class="col-6 py-3">
+                <i class="fas fa-chevron-right pe-1 text-primary"></i><b class="text-warning">City:</b> New York, USA
+              </div>
+              <div class="col-6 py-3">
+                <i class="fas fa-chevron-right pe-1 text-primary"></i><b class="text-warning">Freelance:</b> Avialable
+              </div>
+            </div>
+            <p>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et
+              ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis
+              quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat
+              cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores. Lorem ipsum dolor sit amet
+              consectetur.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 4th Block  -->
+      <div class="skills right-margin mb-4" data-aos="fade-down">
+        <h2 class="position-relative mb-3 heading">Skills</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
+        <div class="row">
+          <div class="col-6 py-3">
+
+            <div class="d-flex justify-content-lg-between">
+              <div>HTML</div>
+              <div>80%</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                aria-valuemax="100" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="col-6 py-3">
+            <div class="d-flex justify-content-lg-between">
+              <div>CSS</div>
+              <div>75%</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                aria-valuemax="100" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="col-6 py-3">
+            <div class="d-flex justify-content-lg-between">
+              <div>Javascript</div>
+              <div>60%</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                aria-valuemax="100" style="width: 60%"></div>
+            </div>
+          </div>
+          <div class="col-6 py-3">
+            <div class="d-flex justify-content-lg-between">
+              <div>Bootstrap</div>
+              <div>65%</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                aria-valuemax="100" style="width: 65%"></div>
+            </div>
+          </div>
+          <div class="col-6 py-3">
+            <div class="d-flex justify-content-lg-between">
+              <div>Java</div>
+              <div>55%</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                aria-valuemax="100" style="width: 55%"></div>
+            </div>
+          </div>
+          <div class="col-6 py-3">
+            <div class="d-flex justify-content-lg-between">
+              <div>SCSS</div>
+              <div>70%</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                aria-valuemax="100" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5th Block  -->
+      <div class="Resume right-margin" id="resume-menu">
+        <h2 class="position-relative mb-3 heading">Resume</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique rerum labore eligendi sed repudiandae
+          doloremque culpa dignissimos ut, delectus a? Fugiat aliquid atque aperiam assumenda, nostrum sequi eum
+          corrupti quisquam!</p>
+        <div class="row">
+          <div class="col border-1" data-aos="zoom-in-right">
+            <h2 class="text-center text-warning">Education</h2>
+            <div class="resume-info d-flex flex-column">
+              <div class="resume-info-text m-2 p-1 ms-4">
+                <h4 class="position-relative">MASTER OF FINE ARTS & GRAPHIC DESIGN</h4>
+                <p>Rochester Institute of Technology</p>
+                <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+              </div>
+              <div class="resume-info-text m-2 p-1 ms-4">
+                <h4 class="position-relative">BACHELOR OF FINE ARTS & GRAPHIC DESIGN</h4>
+                <p>Rochester Institute of Technology</p>
+                <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+              </div>
+              <div class="resume-info-text m-2 p-1 ms-4">
+                <h4 class="position-relative">Specialization Course</h4>
+                <p>2010 Apple Inc.</p>
+                <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col" data-aos="zoom-in-left">
+            <h2 class="text-center text-warning">Experience</h2>
+            <div class="resume-info d-flex flex-column">
+              <div class="resume-info-text m-2 p-1 ms-4">
+                <h4 class="position-relative">SENIOR GRAPHIC DESIGN SPECIALIST</h4>
+                <p>Experion, New York, NY</p>
+                <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+              </div>
+              <div class="resume-info-text m-2 p-1 ms-4">
+                <h4 class="position-relative">GRAPHIC DESIGN SPECIALIST</h4>
+                <p>Stepping Stone Advertising</p>
+                <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+              </div>
+              <div class="resume-info-text m-2 p-1 ms-4">
+                <h4 class="position-relative">S.E.O Specialist</h4>
+                <p>Noida, Delhi</p>
+                <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6th Block -->
+      <div class="testimonials right-margin mb-4" id="testimonials-menu">
+        <h2 class="position-relative my-4 heading">Testimonials</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
+
+        <div class="d-flex">
+          <div class="p-3 w-50 m-auto" data-aos="zoom-in" data-aos-delay="200">
+            <div class=" testimonial-info">
+              Consectetur Lorem ipsum, dolor sit amet adipisicing elit. Quod autem eveniet quam neque rem, unde
+              quibusdam
+            </div>
+            <div class=" testimonial-info-author">-Jhone Doe</div>
+          </div>
+          <div class="p-3 w-50 m-auto" data-aos="zoom-in" data-aos-delay="200">
+            <div class=" testimonial-info">
+              Dolor sit amet consectetur adipisicing elit. Quod autem eveniet quam neque rem, unde quibusdam
+            </div>
+            <div class=" testimonial-info-author">-Tony Stark</div>
+          </div>
+          <div class="p-3 w-50 m-auto" data-aos="zoom-in">
+            <div class="testimonial-info">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod autem eveniet quam neque rem, unde
+              quibusdam
+            </div>
+            <div class=" testimonial-info-author">-Steve Rogers</div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- 7th Block  --
+        >
+      <div class="contact-us right-margin mb-4" id="contact-menu">
+        <h2 class="position-relative my-4 heading">Contact Us</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et error, id necessitatibus amet recusandae saepe
+          aliquid quam ipsam culpa. Illum esse nulla suscipit excepturi assumenda? Non ratione laborum officiis eaque?
+        </p>
+
+        <div class="row">
+          <div class="col-4 p-3">
+            <div class="address pt-3">
+              <i class="fas fa-map-marker-alt d-flex"></i>
+              <h4>Location:</h4>
+              <p>A108 Adam Street, New York</p>
+            </div>
+
+            <div class="address">
+              <i class="fas fa-envelope-open-text d-flex"></i>
+              <h4>Email:</h4>
+              <p>info@example.com</p>
+            </div>
+            <div class="address mb-4">
+              <i class="fas fa-phone-alt d-flex"></i>
+              <h4>Call:</h4>
+              <p>+1 5589 55488 55s</p>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27687.07735994067!2d79.7654274290627!3d29.838750581115068!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a735cfcd2fa28f%3A0xf8feb865d64cab3e!2sBageshwar%2C%20Uttarakhand%20263642!5e0!3m2!1sen!2sin!4v1631458190508!5m2!1sen!2sin"
+              frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen="" class="ms-2"></iframe>
+          </div>
+          <div class="col-8 p-4  form">
+            <div class="row">
+              <div class="col-6 my-2">
+                <div class="form-group">
+                  <label for="firstName" class="my-2">Your Name</label>
+                  <input type="text" class="form-control" id="firstName" value="" required>
+                </div>
+              </div>
+              <div class="col-6 my-2">
+                <div class="form-group">
+                  <label for="Email" class="my-2">Email</label>
+                  <input type="text" class="form-control" id="Email" value="" required>
+                </div>
+              </div>
+            </div>
+            <div class="row my-2">
+              <div class="col">
+                <div class="form-group">
+                  <label for="Subject" class="my-2">Subject</label>
+                  <input type="text" class="form-control" id="Subject" value="" required>
+                </div>
+              </div>
+            </div>
+            <div class="row my-2">
+              <div class="form-group">
+                <label for="textarea" class="my-2">Message</label>
+                <textarea class="form-control" id="textarea" rows="10"></textarea>
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary p-2">Send Message</button>
+          </div>
+        </div>
+      </div>
+
+    
+
+     </div>
+
+  </div>
+
+    <!-- All JS Files and Libraries  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script src="js/typing-effect.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/switch-light-mode.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+
+</body>
+
+</html>
+
+<!-- Help Sites
+
+https://bit.ly/3A5QKQD
+
+http://cvresumetemplate.com/maha-personal-cv-resume-html-template/home-one.html
+
+https://bslthemes.site/arter/light/
+https://bslthemes.site/arter/
+
+    https://bootstrapmade.com/demo/templates/iPortfolio/
+-->

@@ -1,0 +1,37 @@
+.menu {
+    width: 300px;
+    min-width: 300px;
+    position: fixed;
+    height: 100%;
+    background: #040B14;
+}
+
+.profile-pic img {
+    width: 145px;
+    display: block;
+    margin: 20px auto 5px auto;
+    border: 8px solid #2f323d;
+}
+
+/* Menu Items */
+.main-menu {
+    margin-top: 42px;
+    padding-left: 15px;
+}
+
+.main-menu a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+/* Footer  */
+.footer {
+    background-color: #000000;
+    margin-top: auto;
+}
+
+.footer i {
+    color: #FAFAFC;
+}

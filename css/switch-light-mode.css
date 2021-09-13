@@ -1,0 +1,62 @@
+body {
+    overflow-x: hidden;
+    background-color: #fbfbfb;
+    color: black;
+}
+
+.main-home {
+    background: linear-gradient(to right,rgb(122 122 181 / 13%), rgb(32 32 42 / 14%)), url(../images/bg.jpg);
+    color: white;
+    margin: 35px;
+    height: 400px;
+}
+
+
+.home-banner {
+    background: linear-gradient(to right,rgb(122 122 181 / 43%), rgb(32 32 42 / 34%)), url(../images/bg.jpg); }
+    
+    .home-banner,
+.main-home {
+  background-size: cover;
+  background-position: center;
+}
+
+.text-warning {
+   color: #F46258 !important;
+}
+
+.btn-warning {
+    color: #000;
+    background-color: #F46258 !important;
+    border-color: #F46258 !important;
+}
+
+.resume-info {
+    border-left: 6px solid #F46258 !important;
+}
+
+.testimonial-info::before {
+    background-color: white !important;
+}
+
+.menu {
+	color: black !important;
+    background: white;
+    border-right: 2px solid black;
+}
+
+.main-menu a {
+    color: black;
+}
+
+.footer i {
+    color: #FAFAFC;
+}
+
+.text-white {
+	color: black !important;
+}
+
+.footer {
+	margin-right: -1px;
+}

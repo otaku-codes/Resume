@@ -1,0 +1,163 @@
+* {
+  /* This will be applied to child elements also */
+  font-family: 'Poppins', sans-serif;
+  -webkit-user-drag: none;
+
+}
+
+body {
+    /* Limited To Body Elements */
+    overflow-x: hidden;
+    color: white;
+    background-color: #1E1E28;
+}
+
+
+.main-row {
+  margin-left: 300px;
+}
+
+.home-banner {
+  background: linear-gradient(rgb(22 22 29 / 92%), rgb(32 32 42 / 80%)),
+    url('../images/bg.jpg');
+}
+
+.right-margin {
+  padding: 0px 35px;
+}
+
+
+.main-home {
+  background: linear-gradient(to right,rgb(22 22 29 / 68%), rgb(32 32 42 / 46%)), url('../images/bg.jpg');
+  color: white;
+  margin: 35px;
+  height: 400px;
+}
+
+
+.home-banner,
+.main-home {
+  background-size: cover;
+  background-position: center;
+}
+
+.main-home-title {
+    font-size: 55px;
+}
+
+
+.face-2-img {
+    height: 435px;
+    position: absolute;
+    top: 0px;
+    right: 60px;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.home-info {
+    font-size: 19px;
+    margin: 20px 35px;
+}
+
+.heading:first-child::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 3px;
+    background: #149ddd;
+}
+
+
+
+.resume-info {
+  border-left: 6px solid #ffc107;
+  height: 480px;
+  position: relative;
+  left: 4%;
+}
+
+
+.resume-info-text>h4::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  left: -41px;
+  top: 2px;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+
+.testimonial-info {
+  position: relative;
+  padding: 20px;
+  border:2px solid #e74848;
+  border-radius: 15px;
+}
+
+.testimonial-info::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 2rem;
+  height: 2px;
+  width: 6rem;
+  background-color: #1E1E28;
+}
+
+.testimonial-info::after {
+  content: "";
+  position: absolute;
+  bottom: -3rem;
+  left: 2rem;
+  height: 3rem;
+  width: 4rem;
+  border: 2px solid #e74848;
+  border-left: 0;
+  border-bottom: 0;
+  border-radius: 0 50rem;
+}
+
+.address i {
+  margin: 5px 8px;
+  color: #149ddd;
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: #dff3fc;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.testimonial-info-author {
+  padding: 6px 0px 0px 120px;
+}
+
+
+.form {
+  font-size: 18px;
+}
+
+
+.switch-mode {
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
