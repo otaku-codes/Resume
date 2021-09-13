@@ -1,11 +1,14 @@
 var x = 0;
-function switchMode() {
 
+function switchMode() {
+    var elem = document.getElementById("switch-btn");
     if (x == 0) {
         lightMode();
+        elem.innerHTML = 'Dark Mode';
         x++;
     } else {
         darkMode();
+        elem.innerHTML = 'Light Mode';
         x = 0;
     }
 }
