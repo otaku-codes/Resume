@@ -149,11 +149,9 @@ body {
   padding: 6px 0px 0px 120px;
 }
 
-
 .form {
   font-size: 18px;
 }
-
 
 .switch-mode {
   display: block;
@@ -161,3 +159,4 @@ body {
   width: 100px;
   border-radius: 50%;
 }
+

@@ -35,3 +35,14 @@
 .footer i {
     color: #FAFAFC;
 }
+
+@media only screen and (max-width: 1200px) {
+    .menu {
+      display: none !important;
+    }
+
+    .main-row {
+        margin-left: 0px;
+    }
+  }
+  
