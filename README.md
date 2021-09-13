@@ -1,11 +1,11 @@
 # Project Details
 Resume Website using(Not Responsive)
 
-# Languages Used
+## Languages Used
 HTML, CSS, JS
   
-# Fraemworks Used
+## Fraemworks Used
 Bootstrap
 
-# Libraries Used
+## Libraries Used
 AOS JS, Typing Effect
