@@ -1,5 +1,5 @@
 # Project Details
-Resume Website using(Not Responsive)
+Resume Website (Not Responsive)
 
 ## Languages Used
 HTML, CSS, JS
