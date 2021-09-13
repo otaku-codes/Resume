@@ -1,6 +1,6 @@
 # Project Details
 Resume Website (Not Responsive) </br>
-**Vist Now:** https://himanshupapola.github.io/
+**Vist Now:** https://himanshupapola.github.io/Resume/
 
 ## Languages Used
 HTML, CSS, JS
