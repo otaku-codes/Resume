@@ -27,7 +27,6 @@
 
   <!-- Favicon  -->
   <link rel="icon" type="image/png" href="images/face-2-min.png"/>
-
   <title>Himanshu Portfolio</title>
  
 </head>
@@ -59,7 +58,7 @@
 
             <a href="#about-menu"><button class="btn btn-warning px-4 py-2 rounded-0">EXPLORE NOW</button></a>
           </div>
-          <img src="images/face-2-min.png" alt="" class="face-2-img" />
+          <img src="images/face-2-min.png" alt="" class="d-lg-block d-none face-2-img" />
 
         </div>
 
@@ -211,7 +210,7 @@
           doloremque culpa dignissimos ut, delectus a? Fugiat aliquid atque aperiam assumenda, nostrum sequi eum
           corrupti quisquam!</p>
         <div class="row">
-          <div class="col border-1" data-aos="zoom-in-right">
+          <div class="col" data-aos="zoom-in-right">
             <h2 class="text-center text-warning">Education</h2>
             <div class="resume-info d-flex flex-column">
               <div class="resume-info-text m-2 p-1 ms-4">
@@ -305,7 +304,8 @@
     <script src="js/typing-effect.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/switch-light-mode.js" ></script>
-    <script>AOS.init(); includeHTML();</script>
+    <script>AOS.init({once: true})</script>
+    <script>includeHTML();</script>
 
 
 
