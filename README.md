@@ -1,5 +1,5 @@
 # Project Details
-Resume Website (Not Responsive) </br>
+Resume Website With Light and Dark Mode (Not Responsive) </br>
 **Visit Now:** https://himanshupapola.github.io/Resume/
 
 ## Languages Used
