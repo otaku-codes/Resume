@@ -8,6 +8,7 @@
 body {
     /* Limited To Body Elements */
     overflow-x: hidden;
+    visbilty: hidden;
     color: white;
     background-color: #1E1E28;
 }
