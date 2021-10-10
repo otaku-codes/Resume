@@ -1,8 +1,7 @@
 body {
-    overflow-x: hidden;
-	 background: linear-gradient(to right, #fbfbfb 50%, white 50%);
+    overflow-x: hidden;   
+    background: #fbfbfb;
     color: black;
-    transition: all .5s ease-out  !important;
 }
 
 .main-home {
