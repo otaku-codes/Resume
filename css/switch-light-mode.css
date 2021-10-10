@@ -2,6 +2,7 @@ body {
     overflow-x: hidden;
     background-color: #fbfbfb;
     color: black;
+    transition: all .5s ease-out  !important;
 }
 
 .main-home {
