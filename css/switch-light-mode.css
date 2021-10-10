@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    background-color: #fbfbfb;
+	 background: linear-gradient(to right, #fbfbfb 50%, white 50%);
     color: black;
     transition: all .5s ease-out  !important;
 }
