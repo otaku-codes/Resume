@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,12 +29,15 @@
   <title>Himanshu Portfolio</title>
  
    <script src="./js/script.js" async></script>
+   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+   <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 </head>
-
 <body>
+
   <!-- Loader -->
   <div id="loader" class="center"></div>
-  
+
+
   <!-- Left Menu Imported-->
   <div w3-include-html="./html/left-menu.html"></div> 
 
@@ -43,12 +45,14 @@
   <div class="container-fluid p-0" id="container-menu">
 
      <div class="main-row d-flex flex-column">
-
+    
       <!-- 1st Block  -->
       <div class="home-banner">
-
+       
         <div class="main-home d-flex align-items-center">
-          <div class="main-home-content ms-5">
+          <div id="particles-js" style="position: absolute; height: 400px; width:75%; z-index: 0; "></div>
+          
+          <div class="main-home-content ms-5" style="z-index: 4;">
             <h1 class="fw-bolder main-home-title">
               <span> Welcome To My</span> <br />
               <span> Portfolio! </span>
@@ -60,7 +64,7 @@
               &lt;/<span class="text-warning">Code</span>&gt;
             </p>
 
-            <a href="#about-menu"><button class="btn btn-warning px-4 py-2 rounded-0">EXPLORE NOW</button></a>
+            <a href="#about-menu" ><button class="btn btn-warning px-4 py-2 rounded-0">EXPLORE NOW</button></a>
           </div>
           <img src="images/face-2-min.png" alt="" class="d-lg-block d-none face-2-img" />
 
