@@ -5,7 +5,7 @@ Resume Website With Light and Dark Mode (Not Responsive) </br>
 ## Languages Used
 HTML, CSS, JS
   
-## Fraemworks Used
+## Frameworks Used
 Bootstrap
 
 ## Libraries Used
