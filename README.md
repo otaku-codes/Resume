@@ -10,3 +10,7 @@ Bootstrap
 
 ## Libraries Used
 AOS JS, Typing Effect
+
+## Screenshot 
+
+<img src="https://i.ibb.co/Jz8QddH/Screenshot.png" alt="Screenshot" border="0">
