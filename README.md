@@ -1,6 +1,6 @@
 # Project Details
 Resume Website With Light and Dark Mode (Not Responsive) </br>
-**Visit Now:** https://makerofdreams.github.io/Resume/
+**Visit Now:** [https://makerofdreams.github.io/Resume/](https://otaku-codes.github.io/Resume/)
 
 ## Languages Used
 HTML, CSS, JS
