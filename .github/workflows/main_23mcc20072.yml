@@ -1,22 +1,26 @@
-name: Build and deploy HTML/CSS/JS site to Azure Web App
+          name: Build and deploy HTML/CSS/JS site to Azure Web App
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Deploy to Azure Web App
-        uses: azure/webapps-deploy@v2
-        with:
-          app-name: '23MCC20072'
-          slot-name: 'Production'
-          package: .
+          on:
+            push:
+              branches:
+                - main
+            workflow_dispatch:
+          
+          jobs:
+            deploy:
+              runs-on: ubuntu-latest
+          
+              steps:
+                - name: Checkout repository
+                  uses: actions/checkout@v2
+          
+                - name: Deploy to Azure Web App
+                  uses: azure/webapps-deploy@v2
+                  with:
+                    app-name: '23MCC20072'
+                    slot-name: 'Production'
+                    package: .
+                  env:
+                    AZURE_CLIENT_ID: ${{ secrets.AZUREAPPSERVICE_CLIENTID_EDAE690AA84747E0918EE29FB4EC5B5F }}
+                    AZURE_TENANT_ID: ${{ secrets.AZUREAPPSERVICE_TENANTID_414A45BCE4434FF2BB6A5EFD9E40828D }}
+                    AZURE_SUBSCRIPTION_ID: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_BEF02FF558894A7BA1F4C9766A9B1457 }}
